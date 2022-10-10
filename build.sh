@@ -8,9 +8,9 @@ cd tag-and-trac-assessment-api
 npm install
 npm run build
 
-cd ../deploy
+cd ../tag-and-trac-assessment-deploy
 docker-compose up --build -d
 
-cd ../tag-and-tract-assessment-web
+cd ../tag-and-trac-assessment-web
 npm install
 npm start

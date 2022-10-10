@@ -30,7 +30,7 @@ services:
     container_name: api-svc
     hostname: api-svc
     build: 
-      context: ../api
+      context: ../tag-and-trac-assessment-api
     ports:
       - 8080:8080
     networks:
